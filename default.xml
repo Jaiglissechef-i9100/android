@@ -21,6 +21,9 @@
   <remote name="bsk"
            fetch="https://github.com/BeanStalkKang/" />
 
+  <remote  name="mk"
+           fetch="https://github.com/MoKee/" />
+
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
@@ -283,7 +286,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="scotthartbti/android_frameworks_base" revision="kk44" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="bsk" revision="kk44" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -348,7 +351,7 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="scotthartbti/android_packages_apps_Calculator" revision="kk44" />
-  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="mk" revision="kk_mkt" />
   <project path="packages/apps/Camera2" name="scotthartbti/android_packages_apps_Camera2" revision="kk44" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
@@ -356,24 +359,24 @@
   <project path="packages/apps/Contacts" name="scotthartbti/android_packages_apps_Contacts" revision="kk44" />
   <project path="packages/apps/ContactsCommon" name="scotthartbti/android_packages_apps_ContactsCommon" revision="kk44" />
   <project path="packages/apps/DeskClock" name="scotthartbti/android_packages_apps_DeskClock" revision="kk44" />
-  <project path="packages/apps/Dialer" name="scotthartbti/android_packages_apps_Dialer" revision="kk44" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="mk" revision="kk_mkt" />
   <project path="packages/apps/DSPManager" name="scotthartbti/android_packages_apps_DSPManager" revision="kk44" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="scotthartbti/android_packages_apps_Gallery2" revision="kk44" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="scotthartbti/android_packages_apps_InCallUI" revision="kk44" />
+  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="mk" revision="kk_mkt" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" name="scotthartbti/android_packages_apps_Mms" revision="kk44" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="mk" revision="kk_mkt" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="bsk" revision="cm-11.0" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/QuickSearchBox" name="CyanogenMod/android_packages_apps_QuickSearchBox" />
-  <project path="packages/apps/Settings" name="scotthartbti/android_packages_apps_Settings" revision="kk44" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bsk" revision="kk44" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
