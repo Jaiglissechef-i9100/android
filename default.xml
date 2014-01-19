@@ -479,6 +479,7 @@
   
   <!-- Vendor samsung -->
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="comp" revision="cm-11.0" />
+  
   <!-- Kernel samsung smdk4412-->
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="comp" revision="master" />
+  <project path="kernel/samsung/smdk4412" name="gustavoss/android_kernel_samsung_smdk4412" revision="master" />
 </manifest>
