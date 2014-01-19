@@ -25,7 +25,6 @@
 
   <project path="build" name="scotthartbti/platform_build" revision="kk44" >
     <copyfile src="core/root.mk" dest="Makefile" />
-    <copyfile src="tools/builder.sh" dest="builder.sh" />
   </project>
 
   <project path="android" name="android" remote="comp" revision="kk44" />
