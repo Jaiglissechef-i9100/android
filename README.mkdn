@@ -18,6 +18,12 @@ Then to sync up:
 Building Started
 ---------------
 
+First step : <-- Download apk and libs Terminal
+
+    ./vendor/cm/get-prebuilts
+    
+Second step :
+
     . build/envsetup.sh && brunch i9100
 
 For more information on this Github Organization and how it is structured, 
