@@ -476,12 +476,4 @@
   <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-11.0" />
   <project path="vendor/nxp" name="TheMuppets/proprietary_vendor_nxp" remote="github" revision="cm-11.0" />
   <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-11.0" />
-  
-  <!-- Vendor samsung -->
-  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="comp" revision="cm-11.0" />
-  
-  <!-- Kernel samsung smdk4412-->
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="comp" revision="stable" />
-  
-  <project path="initramfs" name="initramfs3" remote="comp" revision="master" />"
 </manifest>
