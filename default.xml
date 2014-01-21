@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
@@ -485,3 +484,4 @@
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="comp" revision="stable" />
   
   <project path="initramfs" name="initramfs3" remote="comp" revision="master" />"
+</manifest>
