@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
@@ -344,7 +345,7 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="scotthartbti/android_packages_apps_Calculator" revision="kk44" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="bsk" revision="kk44" />
+  <project path="packages/apps/Calendar" name="scotthartbti/android_packages_apps_Calendar" revision="kk44" />
   <project path="packages/apps/Camera2" name="scotthartbti/android_packages_apps_Camera2" revision="kk44" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
@@ -352,17 +353,17 @@
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="comp" revision="kk44" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="comp" revision="kk44" />
   <project path="packages/apps/DeskClock" name="scotthartbti/android_packages_apps_DeskClock" revision="kk44" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="bsk" revision="kk44" />
+  <project path="packages/apps/Dialer" name="scotthartbti/android_packages_apps_Dialer" revision="kk44" />
   <project path="packages/apps/DSPManager" name="scotthartbti/android_packages_apps_DSPManager" revision="kk44" />
   <project path="packages/apps/Email" name="scotthartbti/android_packages_apps_Email" revision="kk44" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="scotthartbti/android_packages_apps_Gallery2" revision="kk44" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="bsk" revision="kk44" />
+  <project path="packages/apps/InCallUI" name="scotthartbti/android_packages_apps_InCallUI" revision="kk44" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="comp" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="bsk" revision="kk44" />
+  <project path="packages/apps/Mms" name="scotthartbti/android_packages_apps_Mms" revision="kk44" />
   <project path="packages/apps/MonthCalendarWidget" name="omnirom/android_packages_apps_MonthCalendarWidget" revision="android-4.4" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
@@ -484,4 +485,3 @@
   <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="comp" revision="stable" />
   
   <project path="initramfs" name="initramfs3" remote="comp" revision="master" />"
-  </manifest>
