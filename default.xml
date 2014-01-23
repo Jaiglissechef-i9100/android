@@ -481,6 +481,6 @@
   <!-- device i9100 --> 
   <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="comp" revision="cm-11.0" />
   <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="comp" revision="cm-11.0" />
-  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="comp" revision="stable" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" remote="comp" revision="master" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="comp" revision="cm-11.0" />
 </manifest>
