@@ -22,6 +22,10 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
+           
+  <project path="build" name="scotthartbti/platform_build" revision="kk44" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="scotthartbti/android_art" revision="kk44" />
