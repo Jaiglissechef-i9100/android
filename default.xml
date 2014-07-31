@@ -508,4 +508,6 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="comp" revision="kk44" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="comp"  revision="kk44" />
   <project path="vendor/cm" name="proprietary_vendor_cm" remote="comp" revision="kk44" />
+  <project path="device/samsung/galaxys2-common" name="android_device_samsung_galaxys2-common" remote="comp" revision="cm-11.0" />
+  <project path="device/samsung/i9100" name="android_device_samsung_i9100" remote="comp" revision="cm-11.0" />
 </manifest>
