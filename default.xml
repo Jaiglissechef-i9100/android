@@ -299,7 +299,6 @@
   <project path="frameworks/opt/hardware" name="CyanogenMod/android_frameworks_opt_hardware" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="scotthartbti/frameworks_native" revision="kk44" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/cards" name="scotthartbti/frameworks_opt_cards" revision="kk44" />
@@ -495,6 +494,7 @@
   <project path="android" name="android" remote="comp" revision="kk44" />
 
   <project path="frameworks/base" name="android_frameworks_base" remote="comp" revision="kk44" />
+  <project path="frameworks/native" name="frameworks_native" remote="comp" revision="kk44" />
   <project path="external/skia" name="android_external_skia" remote="comp" revision="kk44" />
   <project path="packages/apps/alogcat" name="alogcat" remote="comp" revision="master" />
   <project path="packages/apps/AndroidKernelTweaker" name="android_kernel_tweaker" remote="comp" revision="master" />
