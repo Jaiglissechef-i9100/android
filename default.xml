@@ -396,7 +396,6 @@
   <project path="packages/apps/UnifiedEmail" name="scotthartbti/android_packages_apps_UnifiedEmail" revision="kk44" />
   <project path="packages/apps/Torch" name="scotthartbti/android_packages_apps_Torch" revision="kk44" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0"/>
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/VideoEditor" name="CyanogenMod/android_packages_apps_VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" />
