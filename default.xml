@@ -23,7 +23,7 @@
            sync-c="true"
            sync-j="4" />
            
-  <project path="build" name="scotthartbti/platform_build" revision="kk44" >
+  <project path="build" name="platform_build" remote="comp" revision="kk44" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -476,9 +476,6 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="scotthartbti/android_vendor_tmobile_libs_com.tmobile.themes" revision="kk44" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="scotthartbti/android_vendor_tmobile_providers_ThemeManager" revision="kk44" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
@@ -495,8 +492,8 @@
   <project path="android" name="android" remote="comp" revision="kk44" />
 
   <project path="frameworks/base" name="android_frameworks_base" remote="comp" revision="kk44" />
-  <project path="frameworks/native" name="scotthartbti/frameworks_native" revision="kk44" />
-  <project path="external/skia" name="scotthartbti/android_external_skia" revision="kk44" />
+  <project path="frameworks/native" name="frameworks_native" remote="comp" revision="kk44" />
+  <project path="external/skia" name="android_external_skia" remote="comp" revision="kk44" />
   <project path="packages/apps/alogcat" name="alogcat" remote="comp" revision="master" />
   <project path="packages/apps/AndroidKernelTweaker" name="android_kernel_tweaker" remote="comp" revision="master" />
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="comp" />
@@ -506,8 +503,11 @@
   <project path="packages/apps/HALO" name="android_packages_apps_HALO" remote="comp" revision="cm-11.0" />
   <project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="comp" revision="kk44" />
   <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="comp" />
+  <project path="packages/apps/OmniSwitch" name="android_packages_apps_OmniSwitch" remote="comp" revision="android-4.4" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="comp" revision="kk44" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="comp" revision="kk44" />
+  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0"/>
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="comp"  revision="kk44" />
   <project path="vendor/cm" name="proprietary_vendor_cm" remote="comp" revision="kk44" />
 </manifest>
