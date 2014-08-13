@@ -455,4 +455,57 @@
 <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
 <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
 <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
+
+<!-- Track 7comp project -->
+<project path="art" name="android_art" remote="comp" revision="kk44" />
+<project path="bionic" name="android_bionic" remote="comp" revision="kk44" />
+<project path="android" name="android" remote="comp" revision="kk44" />
+<project path="external/chromium_org" name="android_external_chromium_org" remote="comp" revision="kk44" />
+<project path="frameworks/av" name="android_frameworks_av" remote="comp" revision="kk44" />
+<project path="frameworks/base" name="android_frameworks_base" remote="comp" revision="kk44" />
+<project path="frameworks/native" name="frameworks_native" remote="comp" revision="kk44" />
+<project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="comp" revision="kk44" />
+<project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="comp" revision="kk44" />
+<project path="frameworks/opt/cards" name="frameworks_opt_cards" remote="comp" revision="kk44" />
+<project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" remote="comp" revision="kk44" />
+<project path="external/skia" name="android_external_skia" remote="comp" revision="kk44" />
+<project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="comp" revision="kk44" />
+<project path="packages/apps/DashClock" name="android_packages_apps_DashClock" remote="comp" revision="kk44" />
+<project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" remote="comp" revision="kk44" />
+<project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="comp" revision="kk44" />
+<project path="packages/apps/alogcat" name="alogcat" remote="comp" revision="master" />
+<project path="packages/apps/AndroidKernelTweaker" name="android_kernel_tweaker" remote="comp" revision="master" />
+<project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="comp" />
+<project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="comp" revision="kk44" />
+<project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="comp" revision="kk44" />
+<project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="comp" revision="kk44" />
+<project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" remote="comp" revision="kk44" />
+<project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="comp" revision="kk44" />
+<project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="comp" revision="kk44" />
+<project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="comp" revision="kk44" />
+<project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="comp" revision="kk44" />
+<project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="comp" revision="kk44" />
+<project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="comp" revision="kk44" />
+<project path="packages/apps/Email" name="android_packages_apps_Email" remote="comp" revision="kk44" />
+<project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="comp" revision="kk44" />
+<project path="packages/apps/GPSOptimizer" name="android_packages_apps_GPSOptimizer" remote="comp" revision="master" />
+<project path="packages/apps/HALO" name="android_packages_apps_HALO" remote="comp" revision="cm-11.0" />
+<project path="packages/apps/InCallUI" name="android_packages_apps_InCallUI" remote="comp" revision="kk44" />
+<project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="comp" />
+<project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="comp" revision="kk44" />
+<project path="packages/apps/OmniSwitch" name="omnirom/android_packages_apps_OmniSwitch" revision="android-4.4" />
+<project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="comp" revision="kk44" />
+<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="comp" revision="kk44" />
+<project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="comp" revision="kk44" />
+<project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
+<project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="comp" revision="kk44" />
+<project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="comp" revision="kk44" />
+<project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="comp" revision="kk44" />
+<project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="comp" revision="kk44" />
+<project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
+<project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" remote="comp" revision="kk44" />
+<project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="comp" revision="kk44" />
+<project path="system/core" name="platform_system_core" remote="comp" revision="kk44" />
+<project path="system/media" name="system_media" remote="comp" revision="kk44" />
+<project path="vendor/cm" name="proprietary_vendor_cm" remote="comp" revision="kk44" />
 </manifest>
